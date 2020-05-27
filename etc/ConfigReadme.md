@@ -1,11 +1,11 @@
 ## Steps to generate config.json
 
-   1. Create a google service account.
+   1. Create a Google service account.
    2. Download private Key file.
    3. Rename it to config.json.
    4. place it in etc/ directory.
 
-## your private key / config.json file will looks as following sample file.
+#### your `private key / config.json` file will looks as following sample file.
 ```
 {
   "type": "service_account",
