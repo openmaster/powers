@@ -10,7 +10,7 @@
 
 # production
 /build
-/etc
+/etc/config.json
 # misc
 .DS_Store
 .env.local

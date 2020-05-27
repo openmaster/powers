@@ -1,5 +1,6 @@
 {
   "name": "portable-excelto-xml",
+  "author": "Vishavjeet Singh",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +22,7 @@
     "xml2js": "^0.4.23"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node ./server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
