@@ -91,8 +91,8 @@ export default class CompareCTData extends Component{
                             </td>
                             <td className="text-right ">{parseFloat(ct.ct.GainPoly[0].a).toFixed(4)}</td>
                             <td className="text-right ">{parseFloat(ct.ct.GainPoly[0].b).toFixed(4)}</td>
-                            {this.state.more && <td className="text-right ">{parseFloat(ct.ct.GainPoly[0].c).toFixed(4)}</td>}
-                            {this.state.more && <td className="text-right ">{parseFloat(ct.ct.GainPoly[0].d).toFixed(4)}</td>}
+                            {this.state.more && <td className="text-right ">{parseFloat(ct.ct.GainPoly[0].c).toFixed(6)}</td>}
+                            {this.state.more && <td className="text-right ">{parseFloat(ct.ct.GainPoly[0].d).toFixed(6)}</td>}
                             
                             <td className="text-right ">{parseFloat(ct.ct.PhasePoly[0].a).toFixed(4)}</td>
                             <td className="text-right ">{parseFloat(ct.ct.PhasePoly[0].b).toFixed(4)}</td>
